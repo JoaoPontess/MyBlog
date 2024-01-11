@@ -128,8 +128,10 @@ main h1 {
     /* transition-property: all;
     transition-duration: 200ms;
     transition-timing-function: ease-out; */
-    
+
     transition: all 200ms ease-out;
+
+    display: block;
 
 }
 
@@ -167,4 +169,37 @@ footer p {
     text-align: center;
     padding: 1.6rem;
     font-weight: 600;
+}
+
+header {
+    --startY: -100%;
+    animation: move .2s;
+}
+
+footer {
+    --startY: 100%;
+    animation: move .2s;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(var(--startY));
+    }
+    
+}
+
+.item {
+    --delay: .4s;
+    animation: appear .4s var(--delay) backwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
 }
