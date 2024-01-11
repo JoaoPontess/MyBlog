@@ -9,12 +9,11 @@
 :root {
     font-size: 62.5%;
 
-    --hue:240;
-    --color-base-white: hsl(0, 0%, 100%);
-    --color-base-gray-100: hsl(0, 0%, 96%);
-    --color-base-gray-300: hsl(var(--hue), 6%, 58%);
-    --color-base-gray-500: hsl(0, 0%, 24%);
-    --color-base-gray-900: hsl(var(--hue), 6%, 13%);
+    --color-base-white: #102258;
+    --color-base-gray-100: #0b0335;
+    --color-base-gray-300: #989898;
+    --color-base-gray-500: #ffffff;
+    --color-base-gray-900: #d8d8d8;
 }
 
 html, 
