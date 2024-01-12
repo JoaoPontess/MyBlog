@@ -9,11 +9,11 @@
 :root {
     font-size: 62.5%;
 
-    --color-base-white: #102258;
-    --color-base-gray-100: #0b0335;
-    --color-base-gray-300: #989898;
-    --color-base-gray-500: #ffffff;
-    --color-base-gray-900: #d8d8d8;
+    --color-base-white: hsl(225, 69%, 20%);
+    --color-base-gray-100: hsl(250, 89%, 11%);
+    --color-base-gray-300: hsl(0, 0%, 60%);
+    --color-base-gray-500: hsl(0, 0%, 100%);
+    --color-base-gray-900: hsl(0, 0%, 85%);
 }
 
 html, 
@@ -211,7 +211,7 @@ footer {
 }
 
  /* mobile */
- 
+
 @media only screen and (max-width: 700px) {
     header,
     nav,
