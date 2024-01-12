@@ -1,14 +1,13 @@
+<h1 align="center"> Blog </h1>
 
-# Título 
 
-<h1 align="center"> AdPage </h1>
 
-![Screenshot_2](https://github.com/jhzinm/Projeto1/assets/150977621/337e0adc-6807-48c1-bcad-cae565264617)
+![Screenshot_2](https://github.com/jhzinm/BlogDevJhz/assets/150977621/de874d2b-c62b-42b9-9fd7-18bec16187b8)
 
 
 
 📌 Descrição do Projeto:
-O WebPage é uma plataforma simples e personalizável para uninciar e compartilhar dados de serviço em um único local.
+O Blog é uma plataforma simples e personalizável para e compartilhar dados de serviço e pessoal em um único local.
 
 📌 Funcionalidades e Demonstração da Aplicação:
 
