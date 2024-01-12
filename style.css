@@ -8,12 +8,19 @@
 
 :root {
     font-size: 62.5%;
-    --hue:240
+    
     --color-base-white: hsl(225, 69%, 20%);
     --color-base-gray-100: hsl(250, 89%, 11%);
     --color-base-gray-300: hsl(0, 0%, 60%);
     --color-base-gray-500: hsl(0, 0%, 100%);
     --color-base-gray-900: hsl(0, 0%, 85%);
+
+    --hue:240;
+    --color-base-white: hsl(225, 69%, 20%);
+    --color-base-gray-100: hsl(250, 89%, 11%);
+    --color-base-gray-300: hsl(var(--hue), 0%, 60%);
+    --color-base-gray-500: hsl(0, 0%, 100%);
+    --color-base-gray-900: hsl(var(--hue), 0%, 85%);
 }
 
 html, 
