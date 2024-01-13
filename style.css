@@ -9,11 +9,11 @@
 :root {
     font-size: 62.5%;
 
-    --color-base-white: #3d737f;
-    --color-base-gray-100: #cec7bf;
+    --color-base-white: #10121e;
+    --color-base-gray-100: #2f334c;
     --color-base-gray-300: #ffffff;
-    --color-base-gray-500: #000000;
-    --color-base-gray-900: #07161b;
+    --color-base-gray-500: #ffffff;
+    --color-base-gray-900: #9562af;
 }
 
 html, 
@@ -25,6 +25,11 @@ input {
 body {
     font-size: 1.6rem;
     background-color: var(--color-base-white);
+    color: var(--color-base-gray-300);
+    
+}
+
+ul {
     color: var(--color-base-gray-900);
 }
 
