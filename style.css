@@ -9,11 +9,11 @@
 :root {
     font-size: 62.5%;
 
-    --color-base-white: #10121e;
-    --color-base-gray-100: #2f334c;
+    --color-base-white: #3d327c;
+    --color-base-gray-100: #f5c63c;
     --color-base-gray-300: #ffffff;
     --color-base-gray-500: #ffffff;
-    --color-base-gray-900: #9562af;
+    --color-base-gray-900: #ba7ce6;
 }
 
 html, 
@@ -47,7 +47,7 @@ ul {
 
 main {
     overflow-y: scroll;
-    background: var(--color-base-gray-100);
+    background: linear-gradient(to right, #bb5098, #f47f6b, #ffb32b, #f5c63c);
 }
 
 header,
